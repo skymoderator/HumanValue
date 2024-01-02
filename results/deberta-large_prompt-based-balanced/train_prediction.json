@@ -1,0 +1,494 @@
+[
+    {
+        "test_accuracy": 0.7494670234562668,
+        "test_loss": 0.12142165750265121,
+        "test_macro_f1": 0.8756332140427696,
+        "test_macro_precision": 0.9276950769984769,
+        "test_macro_recall": 0.8348775430838289,
+        "test_micro_f1": 0.8349136175905998,
+        "test_micro_precision": 0.8963902073444916,
+        "test_micro_recall": 0.7813282525857376,
+        "test_official_calculation": {
+            "Achievement": 0.81,
+            "Face": 0.97,
+            "Hedonism": 0.99,
+            "Humility": 0.96,
+            "Stimulation": 0.98,
+            "Tradition": 0.97,
+            "action": 0.83,
+            "avg-f1-score": 0.88,
+            "caring": 0.69,
+            "concern": 0.79,
+            "dependability": 0.79,
+            "dominance": 0.9,
+            "interpersonal": 1.0,
+            "nature": 0.98,
+            "objectivity": 0.69,
+            "personal": 0.82,
+            "resources": 0.98,
+            "rules": 0.82,
+            "societal": 0.84,
+            "thought": 0.87,
+            "tolerance": 0.85
+        },
+        "test_runtime": 120.7943,
+        "test_samples_per_second": 44.638,
+        "test_steps_per_second": 22.319
+    },
+    {
+        "conclusion": "We should ban human cloning",
+        "label_index": [
+            9
+        ],
+        "label_name": [
+            "societal"
+        ],
+        "logits": [
+            -3.9609375,
+            -3.72265625,
+            -5.93359375,
+            -6.7578125,
+            -2.82421875,
+            -3.47265625,
+            -6.12890625,
+            -6.87109375,
+            -0.09033203125,
+            3.673828125,
+            -4.47265625,
+            -1.841796875,
+            -5.7578125,
+            -5.9765625,
+            -3.263671875,
+            -2.0625,
+            0.136962890625,
+            -5.33984375,
+            -4.1796875,
+            -2.041015625
+        ],
+        "prediction": [
+            9,
+            16
+        ],
+        "prediction_name": [
+            "societal",
+            "concern"
+        ],
+        "premise": "we should ban human cloning as it will only cause huge issues when you have a bunch of the same humans running around all acting the same.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should ban fast food",
+        "label_index": [
+            8
+        ],
+        "label_name": [
+            "personal"
+        ],
+        "logits": [
+            -3.70703125,
+            -2.974609375,
+            -5.140625,
+            -5.90625,
+            -2.708984375,
+            -4.6953125,
+            -3.533203125,
+            -4.9765625,
+            3.9453125,
+            -1.5712890625,
+            -5.96484375,
+            -2.90234375,
+            -5.54296875,
+            -5.24609375,
+            -2.169921875,
+            -2.404296875,
+            -2.845703125,
+            -5.703125,
+            -4.921875,
+            -3.318359375
+        ],
+        "prediction": [
+            8
+        ],
+        "prediction_name": [
+            "personal"
+        ],
+        "premise": "fast food should be banned because it is really bad for your health and is costly.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should end the use of economic sanctions",
+        "label_index": [
+            5,
+            9
+        ],
+        "label_name": [
+            "dominance",
+            "societal"
+        ],
+        "logits": [
+            -3.0390625,
+            -1.6875,
+            -4.7421875,
+            -4.9609375,
+            -1.0009765625,
+            5.65625,
+            -3.40625,
+            -5.48046875,
+            -2.662109375,
+            1.5078125,
+            -4.76953125,
+            0.52783203125,
+            -6.48046875,
+            -5.09765625,
+            -1.439453125,
+            -0.68408203125,
+            -0.148193359375,
+            -3.833984375,
+            -3.70703125,
+            -2.291015625
+        ],
+        "prediction": [
+            5,
+            9,
+            11
+        ],
+        "prediction_name": [
+            "dominance",
+            "societal",
+            "rules"
+        ],
+        "premise": "sometimes economic sanctions are the only thing that will get the corrupt governments to take action",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should abolish capital punishment",
+        "label_index": [
+            9,
+            11,
+            16
+        ],
+        "label_name": [
+            "societal",
+            "rules",
+            "concern"
+        ],
+        "logits": [
+            -3.517578125,
+            -3.68359375,
+            -5.83984375,
+            -6.015625,
+            -2.75390625,
+            -0.7314453125,
+            -5.22265625,
+            -7.32421875,
+            -2.732421875,
+            3.373046875,
+            -4.60546875,
+            1.205078125,
+            -5.75390625,
+            -6.3828125,
+            -2.783203125,
+            -3.60546875,
+            0.37353515625,
+            -5.859375,
+            -4.1875,
+            -2.69140625
+        ],
+        "prediction": [
+            9,
+            11,
+            16
+        ],
+        "prediction_name": [
+            "societal",
+            "rules",
+            "concern"
+        ],
+        "premise": "capital punishment is sometimes the only option to keep criminals from committing more crimes.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should ban factory farming",
+        "label_index": [
+            8,
+            14,
+            16
+        ],
+        "label_name": [
+            "personal",
+            "caring",
+            "concern"
+        ],
+        "logits": [
+            -5.5234375,
+            -1.541015625,
+            -4.84765625,
+            -5.796875,
+            -0.62744140625,
+            -4.54296875,
+            -3.044921875,
+            -6.2734375,
+            3.474609375,
+            -1.02734375,
+            -4.9765625,
+            -4.34375,
+            -5.6328125,
+            -6.125,
+            2.0703125,
+            -4.2890625,
+            -0.1324462890625,
+            -5.5703125,
+            -2.2421875,
+            -2.880859375
+        ],
+        "prediction": [
+            8,
+            14
+        ],
+        "prediction_name": [
+            "personal",
+            "caring"
+        ],
+        "premise": "factory farming allows for the production of cheap food, which is a necessity for families surviving on a low income.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should fight for the abolition of nuclear weapons",
+        "label_index": [
+            9,
+            16
+        ],
+        "label_name": [
+            "societal",
+            "concern"
+        ],
+        "logits": [
+            -4.265625,
+            -3.27734375,
+            -4.11328125,
+            -5.265625,
+            -3.419921875,
+            -1.8037109375,
+            -5.6171875,
+            -6.4921875,
+            -2.23046875,
+            4.125,
+            -3.486328125,
+            -2.740234375,
+            -5.30078125,
+            -6.48828125,
+            -2.724609375,
+            -3.9921875,
+            2.640625,
+            -4.85546875,
+            -3.1796875,
+            -3.56640625
+        ],
+        "prediction": [
+            9,
+            16
+        ],
+        "prediction_name": [
+            "societal",
+            "concern"
+        ],
+        "premise": "nuclear weapons help keep the peace in uncertain times",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should prohibit school prayer",
+        "label_index": [
+            0,
+            1,
+            10,
+            16
+        ],
+        "label_name": [
+            "thought",
+            "action",
+            "Tradition",
+            "concern"
+        ],
+        "logits": [
+            1.9013671875,
+            1.9345703125,
+            -5.29296875,
+            -3.365234375,
+            -2.650390625,
+            -4.2578125,
+            -3.828125,
+            -5.8515625,
+            -1.509765625,
+            -3.669921875,
+            5.6875,
+            -2.376953125,
+            -4.99609375,
+            -5.5,
+            -2.474609375,
+            -3.703125,
+            -1.3076171875,
+            -4.16015625,
+            -1.4033203125,
+            -3.154296875
+        ],
+        "prediction": [
+            0,
+            1,
+            10
+        ],
+        "prediction_name": [
+            "thought",
+            "action",
+            "Tradition"
+        ],
+        "premise": "it should be allowed if the student wants to pray as long as it is not interfering with his classes",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should abolish the three-strikes laws",
+        "label_index": [
+            4,
+            7,
+            14,
+            18,
+            19
+        ],
+        "label_name": [
+            "Achievement",
+            "Face",
+            "caring",
+            "tolerance",
+            "objectivity"
+        ],
+        "logits": [
+            -2.0234375,
+            -1.328125,
+            -3.75,
+            -6.09765625,
+            0.270263671875,
+            -2.798828125,
+            -4.10546875,
+            3.869140625,
+            -0.7138671875,
+            -2.587890625,
+            -5.56640625,
+            -2.369140625,
+            -5.640625,
+            -4.87890625,
+            0.62939453125,
+            -1.6142578125,
+            0.71142578125,
+            -4.03125,
+            -1.4306640625,
+            -1.24609375
+        ],
+        "prediction": [
+            4,
+            7,
+            14,
+            16
+        ],
+        "prediction_name": [
+            "Achievement",
+            "Face",
+            "caring",
+            "concern"
+        ],
+        "premise": "three strike laws can cause young people to be put away for life without a chance to straight out their life",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should adopt an austerity regime",
+        "label_index": [
+            16
+        ],
+        "label_name": [
+            "concern"
+        ],
+        "logits": [
+            -4.23046875,
+            -3.12890625,
+            -3.923828125,
+            -6.22265625,
+            -2.361328125,
+            -5.15234375,
+            -1.6845703125,
+            -5.5234375,
+            0.662109375,
+            0.4931640625,
+            -4.4140625,
+            -4.171875,
+            -5.46875,
+            -6.5,
+            -1.4990234375,
+            -4.30078125,
+            3.677734375,
+            -5.69140625,
+            -2.66015625,
+            -4.47265625
+        ],
+        "prediction": [
+            8,
+            9,
+            16
+        ],
+        "prediction_name": [
+            "personal",
+            "societal",
+            "concern"
+        ],
+        "premise": "adopting austerity regime will have very negative impact on the poor and the vulnerable in society.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should adopt an austerity regime",
+        "label_index": [
+            8,
+            9,
+            15
+        ],
+        "label_name": [
+            "personal",
+            "societal",
+            "dependability"
+        ],
+        "logits": [
+            -4.99609375,
+            -2.98828125,
+            -5.328125,
+            -6.25390625,
+            -1.6279296875,
+            -3.00390625,
+            -2.353515625,
+            -4.8125,
+            2.21875,
+            0.11767578125,
+            -3.896484375,
+            -0.44775390625,
+            -1.265625,
+            -3.2265625,
+            0.6416015625,
+            2.740234375,
+            1.3349609375,
+            -5.62109375,
+            -5.796875,
+            -3.578125
+        ],
+        "prediction": [
+            8,
+            9,
+            14,
+            15,
+            16
+        ],
+        "prediction_name": [
+            "personal",
+            "societal",
+            "caring",
+            "dependability",
+            "concern"
+        ],
+        "premise": "we should adopt an austerity regime because it is unfair to expect future generations to settle the debts that we run up",
+        "stance": "in favor of"
+    }
+]

@@ -1,0 +1,484 @@
+[
+    {
+        "test_accuracy": 0.40441238028263343,
+        "test_loss": 0.3767029643058777,
+        "test_macro_f1": 0.39028703976646345,
+        "test_macro_precision": 0.506804025006343,
+        "test_macro_recall": 0.347941038523704,
+        "test_micro_f1": 0.5289241622574956,
+        "test_micro_precision": 0.6020879341497691,
+        "test_micro_recall": 0.47161503381034753,
+        "test_official_calculation": {
+            "Achievement": 0.65,
+            "Benevolence: caring": 0.55,
+            "Benevolence: dependability": 0.26,
+            "Conformity: interpersonal": 0.06,
+            "Conformity: rules": 0.47,
+            "Face": 0.04,
+            "Hedonism": 0.19,
+            "Humility": 0.08,
+            "Power: dominance": 0.22,
+            "Power: resources": 0.45,
+            "Security: personal": 0.74,
+            "Security: societal": 0.63,
+            "Self-direction: action": 0.56,
+            "Self-direction: thought": 0.43,
+            "Stimulation": 0.16,
+            "Tradition": 0.45,
+            "Universalism: concern": 0.66,
+            "Universalism: nature": 0.68,
+            "Universalism: objectivity": 0.42,
+            "Universalism: tolerance": 0.13,
+            "avg-f1-score": 0.39
+        },
+        "test_runtime": 13.5111,
+        "test_samples_per_second": 140.329,
+        "test_steps_per_second": 70.165
+    },
+    {
+        "conclusion": "Entrapment should be legalized",
+        "label_index": [
+            9
+        ],
+        "label_name": [
+            "Security: societal"
+        ],
+        "logits": [
+            -3.26171875,
+            -4.14453125,
+            -5.2265625,
+            -5.40234375,
+            -3.21875,
+            -3.162109375,
+            -3.951171875,
+            -3.685546875,
+            -5.4375,
+            2.205078125,
+            -3.81640625,
+            1.767578125,
+            -4.23046875,
+            -3.537109375,
+            -3.81640625,
+            -2.1875,
+            0.2364501953125,
+            -4.3359375,
+            -4.0625,
+            -0.251220703125
+        ],
+        "prediction": [
+            9,
+            11,
+            16
+        ],
+        "prediction_name": [
+            "Security: societal",
+            "Conformity: rules",
+            "Universalism: concern"
+        ],
+        "premise": "if entrapment can serve to more easily capture wanted criminals, then why shouldn't it be legal?",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "The use of public defenders should be mandatory",
+        "label_index": [
+            16
+        ],
+        "label_name": [
+            "Universalism: concern"
+        ],
+        "logits": [
+            -3.830078125,
+            -2.001953125,
+            -3.888671875,
+            -4.0234375,
+            0.1141357421875,
+            -2.912109375,
+            -2.50390625,
+            -3.90625,
+            1.689453125,
+            -0.317138671875,
+            -3.95703125,
+            -1.5712890625,
+            -3.013671875,
+            -4.24609375,
+            5.32421875,
+            -1.2294921875,
+            0.4326171875,
+            -4.3125,
+            -4.1640625,
+            -3.5234375
+        ],
+        "prediction": [
+            4,
+            8,
+            14,
+            16
+        ],
+        "prediction_name": [
+            "Achievement",
+            "Security: personal",
+            "Benevolence: caring",
+            "Universalism: concern"
+        ],
+        "premise": "the use of public defenders should be mandatory because some people don't have money for a lawyer and this would help those that don't",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "Payday loans should be banned",
+        "label_index": [
+            8,
+            16
+        ],
+        "label_name": [
+            "Security: personal",
+            "Universalism: concern"
+        ],
+        "logits": [
+            -4.91015625,
+            -4.41015625,
+            -4.4609375,
+            -4.55078125,
+            -1.8876953125,
+            -4.14453125,
+            0.0267181396484375,
+            -4.1640625,
+            2.701171875,
+            1.2734375,
+            -4.32421875,
+            -2.84375,
+            -4.05078125,
+            -3.482421875,
+            0.75244140625,
+            -1.822265625,
+            3.765625,
+            -3.7265625,
+            -4.36328125,
+            -3.541015625
+        ],
+        "prediction": [
+            6,
+            8,
+            9,
+            14,
+            16
+        ],
+        "prediction_name": [
+            "Power: resources",
+            "Security: personal",
+            "Security: societal",
+            "Benevolence: caring",
+            "Universalism: concern"
+        ],
+        "premise": "payday loans create a more impoverished society with their crazy payback rates.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "Surrogacy should be banned",
+        "label_index": [
+            1
+        ],
+        "label_name": [
+            "Self-direction: action"
+        ],
+        "logits": [
+            -0.6181640625,
+            4.68359375,
+            -2.265625,
+            -2.67578125,
+            -2.734375,
+            -1.498046875,
+            -2.220703125,
+            -2.359375,
+            -1.7158203125,
+            -3.373046875,
+            -2.052734375,
+            -4.6015625,
+            -2.650390625,
+            -2.50390625,
+            -0.467529296875,
+            -3.712890625,
+            4.12890625,
+            -3.3828125,
+            -1.068359375,
+            -3.232421875
+        ],
+        "prediction": [
+            1,
+            16
+        ],
+        "prediction_name": [
+            "Self-direction: action",
+            "Universalism: concern"
+        ],
+        "premise": "Surrogacy should not be banned as it is the woman's right to choose if she wishes to do this for another couple and be compensated.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "Entrapment should be legalized",
+        "label_index": [
+            11,
+            16,
+            19
+        ],
+        "label_name": [
+            "Conformity: rules",
+            "Universalism: concern",
+            "Universalism: objectivity"
+        ],
+        "logits": [
+            -3.62109375,
+            -3.091796875,
+            -4.46484375,
+            -4.33203125,
+            -5.30859375,
+            -2.8828125,
+            -4.38671875,
+            -2.66015625,
+            -5.46875,
+            1.0869140625,
+            -1.5625,
+            2.189453125,
+            -3.18359375,
+            -3.052734375,
+            -2.951171875,
+            -3.423828125,
+            3.533203125,
+            -3.603515625,
+            -3.548828125,
+            -3.05078125
+        ],
+        "prediction": [
+            9,
+            11,
+            16
+        ],
+        "prediction_name": [
+            "Security: societal",
+            "Conformity: rules",
+            "Universalism: concern"
+        ],
+        "premise": "entrapment is gravely immoral and against human rights to coerce someone into a crime",
+        "stance": "against"
+    },
+    {
+        "conclusion": "Intelligence tests bring more harm than good",
+        "label_index": [
+            19
+        ],
+        "label_name": [
+            "Universalism: objectivity"
+        ],
+        "logits": [
+            0.48291015625,
+            -2.390625,
+            -3.421875,
+            -4.4609375,
+            2.138671875,
+            -1.974609375,
+            -2.69921875,
+            -3.037109375,
+            -4.7421875,
+            -2.525390625,
+            -4.45703125,
+            -3.26171875,
+            -4.73828125,
+            -3.955078125,
+            -1.109375,
+            -2.265625,
+            -5.23046875,
+            -3.994140625,
+            -3.16015625,
+            1.955078125
+        ],
+        "prediction": [
+            0,
+            4,
+            19
+        ],
+        "prediction_name": [
+            "Self-direction: thought",
+            "Achievement",
+            "Universalism: objectivity"
+        ],
+        "premise": "intelligence tests should continue to be used because they provide valuable data",
+        "stance": "against"
+    },
+    {
+        "conclusion": "Social media brings more harm than good",
+        "label_index": [
+            11,
+            12,
+            13
+        ],
+        "label_name": [
+            "Conformity: rules",
+            "Conformity: interpersonal",
+            "Humility"
+        ],
+        "logits": [
+            -3.1015625,
+            -3.498046875,
+            -4.3671875,
+            -4.2578125,
+            -2.689453125,
+            -3.029296875,
+            -3.501953125,
+            -2.212890625,
+            3.234375,
+            -1.392578125,
+            -4.07421875,
+            2.09375,
+            -2.205078125,
+            -1.1103515625,
+            -3.677734375,
+            -0.83154296875,
+            0.68359375,
+            -4.6171875,
+            -2.162109375,
+            -3.69921875
+        ],
+        "prediction": [
+            8,
+            11,
+            16
+        ],
+        "prediction_name": [
+            "Security: personal",
+            "Conformity: rules",
+            "Universalism: concern"
+        ],
+        "premise": "it gives people a platform to pretend, show off and to bully others. it also makes people believe that everyone else has everything they want and that their lives are perfect, leading to mental health issues.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "Entrapment should be legalized",
+        "label_index": [
+            9,
+            11
+        ],
+        "label_name": [
+            "Security: societal",
+            "Conformity: rules"
+        ],
+        "logits": [
+            -4.72265625,
+            -4.00390625,
+            -4.94140625,
+            -4.53125,
+            -5.48046875,
+            -0.9150390625,
+            -4.33203125,
+            -3.142578125,
+            -2.654296875,
+            3.57421875,
+            -3.4765625,
+            3.44921875,
+            -3.650390625,
+            -3.95703125,
+            -1.412109375,
+            -0.11480712890625,
+            0.96337890625,
+            -3.232421875,
+            -4.15625,
+            -1.791015625
+        ],
+        "prediction": [
+            9,
+            11,
+            16
+        ],
+        "prediction_name": [
+            "Security: societal",
+            "Conformity: rules",
+            "Universalism: concern"
+        ],
+        "premise": "anyone who commits a crime should be prosecuted",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "Surrogacy should be banned",
+        "label_index": [
+            7,
+            8
+        ],
+        "label_name": [
+            "Face",
+            "Security: personal"
+        ],
+        "logits": [
+            -5.05078125,
+            -3.3828125,
+            -4.43359375,
+            -3.740234375,
+            -3.376953125,
+            -3.0078125,
+            -4.22265625,
+            -3.05859375,
+            4.5546875,
+            -0.80419921875,
+            -4.63671875,
+            -2.158203125,
+            -3.845703125,
+            -3.076171875,
+            3.244140625,
+            -0.59521484375,
+            -0.298095703125,
+            -4.25,
+            -3.12109375,
+            -2.677734375
+        ],
+        "prediction": [
+            8,
+            14
+        ],
+        "prediction_name": [
+            "Security: personal",
+            "Benevolence: caring"
+        ],
+        "premise": "a woman giving birth to someone else's child will cause that child to grow up and not understand who their mother is.   it can lead to major depression and a very unhealthy lifestyle.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "Intelligence tests bring more harm than good",
+        "label_index": [
+            4,
+            19
+        ],
+        "label_name": [
+            "Achievement",
+            "Universalism: objectivity"
+        ],
+        "logits": [
+            -2.400390625,
+            -2.8046875,
+            -4.2578125,
+            -5.30078125,
+            4.25390625,
+            -2.3984375,
+            -2.646484375,
+            -3.005859375,
+            -4.7578125,
+            -2.734375,
+            -4.84765625,
+            -3.123046875,
+            -4.45703125,
+            -4.328125,
+            -2.201171875,
+            -2.10546875,
+            -3.146484375,
+            -4.5234375,
+            -4.03515625,
+            0.52734375
+        ],
+        "prediction": [
+            4,
+            19
+        ],
+        "prediction_name": [
+            "Achievement",
+            "Universalism: objectivity"
+        ],
+        "premise": "some people are highly intelligent but don't do well on testing so intelligence tests can't measure a true value if it's only testing with one method.",
+        "stance": "in favor of"
+    }
+]

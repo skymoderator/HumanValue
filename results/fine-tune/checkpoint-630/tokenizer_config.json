@@ -1,0 +1,102 @@
+{
+  "add_prefix_space": false,
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "50264": {
+      "content": "<mask>",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [],
+  "bos_token": "<s>",
+  "clean_up_tokenization_spaces": true,
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "errors": "replace",
+  "id2label": {
+    "0": "Self-direction: thought",
+    "1": "Self-direction: action",
+    "2": "Stimulation",
+    "3": "Hedonism",
+    "4": "Achievement",
+    "5": "Power: dominance",
+    "6": "Power: resources",
+    "7": "Face",
+    "8": "Security: personal",
+    "9": "Security: societal",
+    "10": "Tradition",
+    "11": "Conformity: rules",
+    "12": "Conformity: interpersonal",
+    "13": "Humility",
+    "14": "Benevolence: caring",
+    "15": "Benevolence: dependability",
+    "16": "Universalism: concern",
+    "17": "Universalism: nature",
+    "18": "Universalism: tolerance",
+    "19": "Universalism: objectivity"
+  },
+  "label2id": {
+    "Achievement": 4,
+    "Benevolence: caring": 14,
+    "Benevolence: dependability": 15,
+    "Conformity: interpersonal": 12,
+    "Conformity: rules": 11,
+    "Face": 7,
+    "Hedonism": 3,
+    "Humility": 13,
+    "Power: dominance": 5,
+    "Power: resources": 6,
+    "Security: personal": 8,
+    "Security: societal": 9,
+    "Self-direction: action": 1,
+    "Self-direction: thought": 0,
+    "Stimulation": 2,
+    "Tradition": 10,
+    "Universalism: concern": 16,
+    "Universalism: nature": 17,
+    "Universalism: objectivity": 19,
+    "Universalism: tolerance": 18
+  },
+  "mask_token": "<mask>",
+  "model_max_length": 512,
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "tokenizer_class": "RobertaTokenizer",
+  "trim_offsets": true,
+  "unk_token": "<unk>"
+}

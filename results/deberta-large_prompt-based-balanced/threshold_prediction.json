@@ -1,0 +1,34 @@
+[
+    {
+        "accuracy": 0.4300872210136169,
+        "macro_f1": 0.49983060107468635,
+        "macro_precision": 0.46462411798768394,
+        "macro_recall": 0.5743968347579506,
+        "micro_f1": 0.5671778021175611,
+        "micro_precision": 0.5023443815683104,
+        "micro_recall": 0.6512261580381471,
+        "official_calculation": {
+            "Achievement": 0.6,
+            "Face": 0.27,
+            "Hedonism": 0.22,
+            "Humility": 0.23,
+            "Stimulation": 0.2,
+            "Tradition": 0.49,
+            "action": 0.66,
+            "avg-f1-score": 0.5,
+            "caring": 0.57,
+            "concern": 0.71,
+            "dependability": 0.38,
+            "dominance": 0.44,
+            "interpersonal": 0.57,
+            "nature": 0.84,
+            "objectivity": 0.55,
+            "personal": 0.73,
+            "resources": 0.5,
+            "rules": 0.53,
+            "societal": 0.63,
+            "thought": 0.49,
+            "tolerance": 0.39
+        }
+    }
+]

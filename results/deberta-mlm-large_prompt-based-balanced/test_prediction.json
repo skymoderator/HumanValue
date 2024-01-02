@@ -1,0 +1,440 @@
+[
+    {
+        "test_accuracy": 0.0,
+        "test_loss": 0.4476964771747589,
+        "test_macro_f1": NaN,
+        "test_macro_precision": NaN,
+        "test_macro_recall": 0.0,
+        "test_micro_f1": NaN,
+        "test_micro_precision": NaN,
+        "test_micro_recall": 0.0,
+        "test_official_calculation": {
+            "Achievement": 0.0,
+            "Face": 0.0,
+            "Hedonism": 0.0,
+            "Humility": 0.0,
+            "Stimulation": 0.0,
+            "Tradition": 0.0,
+            "action": 0.0,
+            "avg-f1-score": 0.0,
+            "caring": 0.0,
+            "concern": 0.0,
+            "dependability": 0.0,
+            "dominance": 0.0,
+            "interpersonal": 0.0,
+            "nature": 0.0,
+            "objectivity": 0.0,
+            "personal": 0.0,
+            "resources": 0.0,
+            "rules": 0.0,
+            "societal": 0.0,
+            "thought": 0.0,
+            "tolerance": 0.0
+        },
+        "test_runtime": 35.1224,
+        "test_samples_per_second": 44.872,
+        "test_steps_per_second": 22.436
+    },
+    {
+        "conclusion": "We should end affirmative action",
+        "label_index": [
+            4,
+            8,
+            16,
+            18
+        ],
+        "label_name": [
+            "Achievement",
+            "personal",
+            "concern",
+            "tolerance"
+        ],
+        "logits": [
+            -1.3623046875,
+            -0.958984375,
+            -2.798828125,
+            -3.49609375,
+            -0.7333984375,
+            -2.03125,
+            -1.96484375,
+            -2.5703125,
+            -0.57958984375,
+            -0.80224609375,
+            -1.97265625,
+            -1.5537109375,
+            -3.306640625,
+            -2.509765625,
+            -1.2802734375,
+            -1.9833984375,
+            -0.5615234375,
+            -2.59375,
+            -1.783203125,
+            -1.5712890625
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "affirmative action helps with employment equity.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should end affirmative action",
+        "label_index": [
+            4,
+            16,
+            18,
+            19
+        ],
+        "label_name": [
+            "Achievement",
+            "concern",
+            "tolerance",
+            "objectivity"
+        ],
+        "logits": [
+            -1.369140625,
+            -0.92431640625,
+            -2.833984375,
+            -3.501953125,
+            -0.77197265625,
+            -2.056640625,
+            -1.9677734375,
+            -2.58984375,
+            -0.60791015625,
+            -0.81396484375,
+            -1.984375,
+            -1.5068359375,
+            -3.326171875,
+            -2.525390625,
+            -1.2763671875,
+            -1.982421875,
+            -0.54150390625,
+            -2.568359375,
+            -1.7900390625,
+            -1.5771484375
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "affirmative action can be considered discriminatory against poor whites",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should ban naturopathy",
+        "label_index": [
+            4,
+            8,
+            15,
+            16
+        ],
+        "label_name": [
+            "Achievement",
+            "personal",
+            "dependability",
+            "concern"
+        ],
+        "logits": [
+            -1.408203125,
+            -0.90869140625,
+            -2.8515625,
+            -3.517578125,
+            -0.88916015625,
+            -1.974609375,
+            -2.099609375,
+            -2.599609375,
+            -0.69921875,
+            -0.787109375,
+            -1.9970703125,
+            -1.4677734375,
+            -3.275390625,
+            -2.55078125,
+            -1.2470703125,
+            -1.9541015625,
+            -0.515625,
+            -2.568359375,
+            -1.8125,
+            -1.5703125
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "naturopathy is very dangerous for the most vulnerable people, like children and cancer patients. people use ineffective treatments and forgo proven cures, such as antibiotics or chemo, often resulting in death.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should prohibit women in combat",
+        "label_index": [
+            4
+        ],
+        "label_name": [
+            "Achievement"
+        ],
+        "logits": [
+            -1.3994140625,
+            -0.87353515625,
+            -2.83984375,
+            -3.5234375,
+            -0.81689453125,
+            -1.9755859375,
+            -2.048828125,
+            -2.541015625,
+            -0.65234375,
+            -0.7412109375,
+            -1.98828125,
+            -1.509765625,
+            -3.318359375,
+            -2.546875,
+            -1.2783203125,
+            -1.970703125,
+            -0.51611328125,
+            -2.560546875,
+            -1.8330078125,
+            -1.6044921875
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "women shouldn't be in combat because they aren't as strong or fast as men and can be a weak link",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should ban naturopathy",
+        "label_index": [
+            4,
+            8,
+            9,
+            14,
+            15
+        ],
+        "label_name": [
+            "Achievement",
+            "personal",
+            "societal",
+            "caring",
+            "dependability"
+        ],
+        "logits": [
+            -1.3759765625,
+            -0.88818359375,
+            -2.806640625,
+            -3.498046875,
+            -0.8466796875,
+            -1.9951171875,
+            -2.0546875,
+            -2.59375,
+            -0.701171875,
+            -0.81591796875,
+            -1.994140625,
+            -1.4580078125,
+            -3.26953125,
+            -2.515625,
+            -1.2177734375,
+            -1.9912109375,
+            -0.53369140625,
+            -2.57421875,
+            -1.8203125,
+            -1.5595703125
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "once eradicated illnesses are returning due to people turning to naturopathy.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should end racial profiling",
+        "label_index": [
+            16,
+            18,
+            19
+        ],
+        "label_name": [
+            "concern",
+            "tolerance",
+            "objectivity"
+        ],
+        "logits": [
+            -1.3876953125,
+            -0.943359375,
+            -2.859375,
+            -3.5078125,
+            -0.818359375,
+            -2.015625,
+            -2.015625,
+            -2.546875,
+            -0.6865234375,
+            -0.76171875,
+            -1.939453125,
+            -1.4482421875,
+            -3.28515625,
+            -2.556640625,
+            -1.18359375,
+            -1.9599609375,
+            -0.465087890625,
+            -2.5234375,
+            -1.82421875,
+            -1.5625
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "racial profiling is a preconceived idea of people that views an entire race as criminal",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should end affirmative action",
+        "label_index": [
+            5,
+            16
+        ],
+        "label_name": [
+            "dominance",
+            "concern"
+        ],
+        "logits": [
+            -1.3818359375,
+            -0.93408203125,
+            -2.814453125,
+            -3.50390625,
+            -0.76806640625,
+            -2.0390625,
+            -1.9873046875,
+            -2.58203125,
+            -0.6103515625,
+            -0.826171875,
+            -1.9580078125,
+            -1.48828125,
+            -3.333984375,
+            -2.52734375,
+            -1.275390625,
+            -1.94140625,
+            -0.53369140625,
+            -2.587890625,
+            -1.779296875,
+            -1.5712890625
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "affirmative action is not fair to the rest of the people and knowing that should not be implemented.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should prohibit flag burning",
+        "label_index": [
+            0,
+            1,
+            18
+        ],
+        "label_name": [
+            "thought",
+            "action",
+            "tolerance"
+        ],
+        "logits": [
+            -1.3671875,
+            -0.8232421875,
+            -2.96484375,
+            -3.53125,
+            -0.9091796875,
+            -2.03125,
+            -2.029296875,
+            -2.60546875,
+            -0.7158203125,
+            -0.755859375,
+            -1.9375,
+            -1.376953125,
+            -3.337890625,
+            -2.529296875,
+            -1.2646484375,
+            -1.998046875,
+            -0.52587890625,
+            -2.5390625,
+            -1.81640625,
+            -1.6005859375
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "flag burning is a freedom of speech and as such is protected under the constitution. it is an act of defiance that must continue to be allowed to protect freedoms for all.",
+        "stance": "against"
+    },
+    {
+        "conclusion": "We should subsidize stay-at-home dads",
+        "label_index": [
+            1,
+            8,
+            14,
+            16
+        ],
+        "label_name": [
+            "action",
+            "personal",
+            "caring",
+            "concern"
+        ],
+        "logits": [
+            -1.3525390625,
+            -0.89306640625,
+            -2.84765625,
+            -3.546875,
+            -0.78515625,
+            -1.9892578125,
+            -2.03125,
+            -2.537109375,
+            -0.6640625,
+            -0.7724609375,
+            -2.021484375,
+            -1.4638671875,
+            -3.314453125,
+            -2.552734375,
+            -1.234375,
+            -1.9541015625,
+            -0.50634765625,
+            -2.59375,
+            -1.80859375,
+            -1.5859375
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "we should subsidize stay-at-home dads because with them staying home, they more and likely would not have the same income level had the wife stayed at home since income equality still exists.",
+        "stance": "in favor of"
+    },
+    {
+        "conclusion": "We should legalize polygamy",
+        "label_index": [
+            1,
+            8,
+            14,
+            15,
+            18,
+            19
+        ],
+        "label_name": [
+            "action",
+            "personal",
+            "caring",
+            "dependability",
+            "tolerance",
+            "objectivity"
+        ],
+        "logits": [
+            -1.3388671875,
+            -0.80322265625,
+            -2.818359375,
+            -3.55859375,
+            -0.759765625,
+            -2.0078125,
+            -2.025390625,
+            -2.556640625,
+            -0.71044921875,
+            -0.86328125,
+            -1.9677734375,
+            -1.505859375,
+            -3.32421875,
+            -2.525390625,
+            -1.23828125,
+            -2.01953125,
+            -0.5478515625,
+            -2.640625,
+            -1.7568359375,
+            -1.552734375
+        ],
+        "prediction": [],
+        "prediction_name": [],
+        "premise": "polygamous relationships can have benefits having sister wives can be helpful having someone you trust look after your children who know them well",
+        "stance": "in favor of"
+    }
+]

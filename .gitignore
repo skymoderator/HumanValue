@@ -1,0 +1,23 @@
+# Environment
+.venv/
+
+# PyCache
+__pycache__/
+
+# Dataset
+datasets/
+
+# Evaluation
+evaluate/
+
+# HuggingFace
+hub/
+modules/
+
+# Model Weights
+*.pt
+*.bin
+*.pth
+**/tokenizer.json
+**/vocab.json
+**/trainer_state.json
